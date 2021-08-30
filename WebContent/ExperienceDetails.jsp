@@ -86,7 +86,6 @@ th {
 				</tr>
 				
 				
-				
 			</table>
 			<input type="submit" value="Add" name="next" class="w3-btn w3-green"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<input type="submit" value="Next" name="next" class="w3-btn w3-green" />
