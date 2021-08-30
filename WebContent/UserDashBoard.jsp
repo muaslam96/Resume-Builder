@@ -270,7 +270,7 @@ $(document).ready(function() {
 		
 		<div class="sidebar">
 			<nav>
-				<a href="#">Hello <span>Friend</span></a>
+				<a href="#">Resume <span>Builder</span></a>
 				<ul>
 					<li class="active"><a href="#">Dashboard</a></li>
 					<li><a href="ResumeLog.jsp">Build Resume</a></li>
@@ -282,30 +282,34 @@ $(document).ready(function() {
 		</div>
 
 		<div class="main-content">
-			<h1>Welcome</h1>
-			<p>Here you can Build Resume ,See Your Stuff And Latest Technology News <%=session.getAttribute("username") %></p>
+			<h1>Welcome <%=session.getAttribute("username") %>!</h1>
+			<p>An Interactive Web Application For Resume Building
 			<div class="panel-wrapper">
 				<div class="panel-head">
-					News
+					Introduction
 				</div>
 				<div class="panel-body">
-				hello usama
+				We welcome you to our Online Resume Building Web Application.
 				</div>
 			</div>
 			<div class="panel-wrapper">
 				<div class="panel-head">
-					News
+					Application Features
 				</div>
 				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+					The basic features provided by the web application are :</p>
+					1. Resume Date Insertion.</p>
+					2. Viewing Inserted Data.</p>
+					3. Choosing Resume Template From Provided Options.</p>
+					4. Downloading Resume in PDF Format.
 				</div>
 			</div>
 			<div class="panel-wrapper">
 				<div class="panel-head">
-					News
+					Support
 				</div>
 				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+					We are open to suggestions regarding our web application. </p>For constructive criticism kindly email us at "muaslam96@gmail.com".
 				</div>
 			</div>
 		</div>

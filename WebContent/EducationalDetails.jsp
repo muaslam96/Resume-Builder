@@ -76,28 +76,28 @@ th {
 					<td>College/School Name</td>
 					<td><input type="text"
 						name="C-S-NAME"
-						id=""  class="w3-input w3-border w3-animate-input"/></td>
+						id=""  class="w3-input w3-border w3-animate-input"required/></td>
 				</tr>
 				<tr>
 					<td>Degree/Boards/University</td>
 					<td><input type="text" name="DEGREE"
-						id="" class="w3-input w3-border w3-animate-input"/></td>
+						id="" class="w3-input w3-border w3-animate-input"required/></td>
 				</tr>
 				<tr>
 					<td>Subject/Combination</td>
 					<td><input type="text" name="SUBJECT"
-						id="" class="w3-input w3-border w3-animate-input"/></td>
+						id="" class="w3-input w3-border w3-animate-input"required/></td>
 				</tr>
 				<tr>
 					<td>Passing Out Year</td>
 					<td><input type="text" name="YEAR"
-						id="" class="w3-input w3-border w3-animate-input" /></td>
+						id="" class="w3-input w3-border w3-animate-input" required/></td>
 				</tr>
 				
 				<tr>
 					<td>Percentage</td>
 					<td><input type="text" name="PERCENTAGE"
-						id="" class="w3-input w3-border w3-animate-input" /></td>
+						id="" class="w3-input w3-border w3-animate-input" required/></td>
 				</tr>
 
 				<tr>

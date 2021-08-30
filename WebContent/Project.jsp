@@ -66,32 +66,32 @@ th {
 		<table>
 			<tr>
 				<td>Title of Project</td>
-				<td><input type="text" name="project" class="w3-input w3-border w3-animate-input"></td>
+				<td><input type="text" name="project" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 			
 
 			<tr>
 				<td>Front End Technologies</td>
 				<td><input type="text"
-					name="FrontEnd" class="w3-input w3-border w3-animate-input"></td>
+					name="FrontEnd" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 			
 			<tr>
 				<td>Back End Technologies</td>
 				<td><input type="text"
-					name="BackEnd" class="w3-input w3-border w3-animate-input"></td>
+					name="BackEnd" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 	
 			
 			<tr>
 				<td>Over All Technical Skills </td>
 				<td><input type="text"
-					name="Skill" class="w3-input w3-border w3-animate-input"></td>
+					name="Skill" class="w3-input w3-border w3-animate-input">required</td>
 			</tr>
 			<tr>
 				<td>Description</td>
 				<td><input type="text"
-					name="Description" class="w3-input w3-border w3-animate-input"></td>
+					name="Description" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 	
 				</table>

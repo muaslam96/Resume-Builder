@@ -306,6 +306,7 @@ keyframes ripple { 100% {
 			 
 			 <button class="button floating-button green-button"
 		onclick="window.print()">PDF</button>
+		<a href="UserDashBoard.jsp">Home</a>
 	<header class="info-details">
 		
 		<h1 class="title-name"><%=p.getFirstName()%>

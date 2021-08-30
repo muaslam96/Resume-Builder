@@ -110,24 +110,17 @@ th {
 						placeholder="Last Name" required/></td>
 				</tr>
 				<tr>
-					
-					<td>Father Name<input type="text" name="Father Name"
-						id="" class="w3-input w3-border w3-animate-input"
-						placeholder="Father's Name" /></td>
 
-					<td>Mother Name <input type="text" name="Mother Name"
-						id="" class="w3-input w3-border w3-animate-input"
-						placeholder="Mother's Name" /></td>
 				</tr>
 
 				<tr>
 					
 					<td>Date Of Birth<input type="text" name="D-O-B"
 						id="" class="w3-input w3-border w3-animate-input"
-						placeholder="dd/mm/yyyy" /></td>
+						placeholder="dd/mm/yyyy" required/></td>
 
 					<td>Age <input type="text" name="Age"
-						id="" class="w3-input w3-border w3-animate-input" placeholder="Age" /></td>
+						id="" class="w3-input w3-border w3-animate-input" placeholder="Age" required/></td>
 				</tr>
 
 				<tr>
@@ -140,7 +133,7 @@ th {
 							<option value="FEMALE">FEMALE</option>
 					</select>
 					<td>Languages known<input type="text" name="Languages"
-						id="" class="w3-input w3-border w3-animate-input" /></td>
+						id="" class="w3-input w3-border w3-animate-input" required/></td>
 					
 					
 					
@@ -151,11 +144,11 @@ th {
 
 					<td>Contact<input type="text" name="Phone Number"
 						id="" class="w3-input w3-border w3-animate-input"
-						placeholder="+00-0000000000" /></td>
+						placeholder="+00-0000000000" required/></td>
 
 					<td>Mail Id  <input type="text" name="Mail"
 						id="" class="w3-input w3-border w3-animate-input"
-						placeholder="xyz@gmail.com" /></td>
+						placeholder="xyz@gmail.com" required/></td>
 					
 				</tr>
 
@@ -164,11 +157,11 @@ th {
 					
 
 					<td>Address<textarea class="w3-input w3-border w3-animate-input"
-							name="Address" id=""></textarea></td>
+							name="Address" id=""required></textarea></td>
 
 					<td>Career Objectives<textarea class="w3-input w3-border w3-animate-input"
 							name="CAREER_OBJECTIVES"
-							id=""></textarea>
+							id=""required></textarea>
 							</td>
 					
 				</tr>
@@ -181,7 +174,7 @@ th {
 							name="STRENGTHS"
 							id=""></textarea></td>
 							<td>Hobbies<textarea class="w3-input w3-border w3-animate-input"
-							name="HOBBIES" id=""></textarea></td>
+							name="HOBBIES" id=""required></textarea></td>
 				</tr>
 
 				<tr>

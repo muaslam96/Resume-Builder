@@ -77,18 +77,18 @@ th {
 			<tr>
 				<td>Award/Recognition</td>
 				<td><input type="text"
-					name="AwardNAME" class="w3-input w3-border w3-animate-input"></td>
+					name="AwardNAME" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 			<tr>
 				<td>Company Name</td>
-				<td><input type="text" name="Company" class="w3-input w3-border w3-animate-input"></td>
+				<td><input type="text" name="Company" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 
 
 			<tr>
 				<td>Date of Achievement</td>
 				<td><input type="text"
-					name="DATE" class="w3-input w3-border w3-animate-input"></td>
+					name="DATE" class="w3-input w3-border w3-animate-input"required></td>
 			</tr>
 			
 		</table></br>

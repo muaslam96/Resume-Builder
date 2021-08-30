@@ -67,22 +67,22 @@ th {
 			<table>
 				<tr>
 					<td>Company</td>
-					<td><input type="text" name="Company" size="32"  class="w3-input w3-border w3-animate-input" /></td>
+					<td><input type="text" name="Company" size="32"  class="w3-input w3-border w3-animate-input" required/></td>
 				</tr>
 				<tr>
 					<td>Designation</td>
 					<td><input type="text"
-						name="DESIGNATION" size="32" class="w3-input w3-border w3-animate-input" /></td>
+						name="DESIGNATION" size="32" class="w3-input w3-border w3-animate-input" required/></td>
 				</tr>
 				<tr>
 					<td>Experience(In Years)</td>
 					<td><input type="text"
-						name="Experience" size="32" class="w3-input w3-border w3-animate-input"/></td>
+						name="Experience" size="32" class="w3-input w3-border w3-animate-input"required/></td>
 				</tr>
 				<tr>
 					<td>Summary-Work Profile</td>
 					<td><input type="text"
-						name="Summary" size="32" class="w3-input w3-border w3-animate-input"/></td>
+						name="Summary" size="32" class="w3-input w3-border w3-animate-input"required/></td>
 				</tr>
 				
 				
