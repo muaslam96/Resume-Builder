@@ -136,7 +136,6 @@ public class Personal {
 		this.hobbies = hobbies;
 	}
 
-	@Override
 	public String toString() {
 		return "Personal [UserId=" + UserId + ", FirstName=" + FirstName + ", LastName=" + LastName + ", fatherName="
 				+ fatherName + ", motherName=" + motherName + ", gender=" + gender + ", dob=" + dob + ", mobileNo="

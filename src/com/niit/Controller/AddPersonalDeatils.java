@@ -22,7 +22,6 @@ public class AddPersonalDeatils extends HttpServlet {
     
     public AddPersonalDeatils() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	

@@ -7,7 +7,7 @@ public class Projects {
 	private String backEnd;
 	private String Skills;
 	private String Description;
-	@Override
+	
 	public String toString() {
 		return "Projects [UserId=" + UserId + ", Projects=" + Projects + ", frontEnd=" + frontEnd + ", backEnd="
 				+ backEnd + ", Skills=" + Skills + "]";
@@ -50,7 +50,6 @@ public class Projects {
 	}
 	public Projects() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	
