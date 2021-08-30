@@ -1,7 +1,3 @@
-package com.niit.Controller;
-
-import java.io.IOException;
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -275,6 +271,9 @@ keyframes ripple { 100% {
 	width: 350px;
 }
 </style>
+
+
+
 </head>
 <body>
 	<%
@@ -283,14 +282,7 @@ keyframes ripple { 100% {
 
 		Personal p = new Personal();
 		p = d.getPersonal(UserId);
-		
-		if (p==null); 
-		{
 
-			System.out.println("<script>alert('Login Failed !! Try Again')</script>");
-			response.setHeader("Refresh", "0;UserDashBoard.jsp");
-		}
-	
 		Education edu = new Education();
 		edu = d.getEducation(UserId);
 
@@ -299,13 +291,23 @@ keyframes ripple { 100% {
 
 		Achievements ach = new Achievements();
 		ach = d.getAchievements(UserId);
+		
 		Projects proj = new Projects();
 		proj = d.getProjects(UserId);
-	%> 
-	<button class="button floating-button green-button"
+		
+		
+		if(p == null || edu == null || exp == null || ach == null || proj == null){
+	%>
+		<script>alert('No data found in DB for Resume, Please insert your data before downloading resume.')</script>
+	<%	
+		response.setHeader("Refresh", "0;UserDashBoard.jsp");
+		    }else{%>
+			
+			 
+			 <button class="button floating-button green-button"
 		onclick="window.print()">PDF</button>
 	<header class="info-details">
-
+		
 		<h1 class="title-name"><%=p.getFirstName()%>
 			<%=p.getLastName()%></h1>
 		<br /> <a class="links" href="#"><i class="fa fa-github fa-2x">
@@ -423,36 +425,14 @@ keyframes ripple { 100% {
 				</p>
 				
 			</div>
-			<div class="container">
-				<h2 class="category-titles">Personal Details</h2>
-				<hr>
-				<p class="category-details">
-					Name <span class="location"> :: <%=p.getFirstName() %> <%=p.getLastName() %></span>
-				</p>
-				<p class="category-details">
-					Father Name ::
-					<%=p.getFatherName() %></p>
-				<p class="category-details">
-					Mother Name ::
-					<%=p.getMotherName() %></p>
-				<p class="category-details">
-					Date Of Birth ::
-					<%=p.getDob() %></p>
-				<p class="category-details">
-					Gender ::
-					<%=p.getGender() %></p>
-					<p class="category-details">
-					Age ::
-					<%=p.getAge() %></p>
-					<p class="category-details">
-					Language ::
-					<%=p.getLangaugeProf() %></p>
-					<p class="category-details">
-					Hobbies ::
-					<%=p.getHobbies() %></p>
-
-			</div>
+			 
+		<%}%>
 		
+		
+	
+
+
+	
 </body>
 
 </html>
